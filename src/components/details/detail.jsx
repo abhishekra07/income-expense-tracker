@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardHeader, CardContent, Typography } from '@material-ui/core';
-import useStyles from './style';
+import useStyles from './styles';
 
 const Detail = ( { title }) => {
   const classes = useStyles();

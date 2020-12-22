@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, CardHeader, CardContent, Typography } from '@material-ui/core';
-// import useStyles from './style';
+import Form from './Form/Form'
+// import useStyles from './styles;
 
 const ExpenseTracker = () => {
   // const classes = useStyles();
@@ -11,7 +12,7 @@ const ExpenseTracker = () => {
         <Typography align = 'center' variant="h5">Total Balance $100</Typography>
       </CardContent>
       <CardContent>
-        Form
+        <Form />
       </CardContent>
     </Card>
   )

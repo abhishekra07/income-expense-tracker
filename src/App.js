@@ -1,8 +1,8 @@
 import React from 'react'
 import Detail  from './components/Details/Detail'
-import ExpenseTracker  from './components/Main/main'
+import ExpenseTracker  from './components/Main/Main'
 import { Grid } from '@material-ui/core';
-import useStyles from './style'
+import useStyles from './styles'
 
 const App = () => {
   const classes = useStyles();
