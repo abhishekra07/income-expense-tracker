@@ -1,5 +1,6 @@
 import React from 'react'
-import Detail  from './components/details/detail'
+import Detail  from './components/Details/Detail'
+import ExpenseTracker  from './components/Main/main'
 import { Grid } from '@material-ui/core';
 import useStyles from './style'
 
@@ -12,7 +13,7 @@ const App = () => {
           <Detail title="Income" />
         </Grid>
         <Grid item xs={12} sm={3} className={classes.mobile}>
-          Main
+          <ExpenseTracker />
         </Grid>
         <Grid item xs={12} sm={4} className={classes.mobile}>
           <Detail title="Expense" />
