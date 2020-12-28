@@ -14,6 +14,13 @@ const ExpenseTracker = () => {
       <CardContent>
         <Form />
       </CardContent>
+      <CardContent className={classes.cartContent}>
+        <Grid container spacing={2}>
+          <Grid item xs={12}>
+            <List />
+          </Grid>
+        </Grid>
+      </CardContent>
     </Card>
   )
 }
