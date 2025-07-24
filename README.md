@@ -34,8 +34,8 @@ A simple and elegant web-based application for tracking your income and expenses
 ### 1. Clone the Repository
 
 ```bash
-git clone <YOUR_GIT_REPO_URL>
-cd <YOUR_PROJECT_NAME>
+git clone https://github.com/abhishekra07/income-expense-tracker.git
+cd income-expense-tracker
 ```
 
 ### 2. Install Dependencies
